@@ -1,0 +1,511 @@
+{
+  "quiz": {
+    "id": 19090,
+    "title": "Self Quiz",
+    "html_url": "https://learning.flatironschool.com/courses/3299/quizzes/19090",
+    "mobile_url": "https://learning.flatironschool.com/courses/3299/quizzes/19090?force_user=1&persist_headless=1",
+    "description": "<div>\n<div><span>It's time to check your knowledge! Use this quiz to create a custom study guide. Note any answers that were marked incorrect, so you can study the relevant material and try this quiz again.</span></div>\n<br>\n<div><span>If you don't know the answer to a question, please do not guess. Instead, select \"I don't know\". It's OK not to know everything and to admit when we're unsure.</span></div>\n</div>",
+    "quiz_type": "assignment",
+    "time_limit": null,
+    "timer_autosubmit_disabled": false,
+    "shuffle_answers": true,
+    "show_correct_answers": true,
+    "scoring_policy": "keep_highest",
+    "allowed_attempts": 3,
+    "one_question_at_a_time": true,
+    "question_count": 8,
+    "points_possible": 8.0,
+    "cant_go_back": false,
+    "access_code": null,
+    "ip_filter": null,
+    "due_at": null,
+    "lock_at": null,
+    "unlock_at": null,
+    "published": false,
+    "unpublishable": true,
+    "locked_for_user": true,
+    "lock_info": {
+      "missing_permission": "participate_as_student",
+      "asset_string": "quizzes:quiz_19090"
+    },
+    "lock_explanation": "This quiz is currently locked.",
+    "hide_results": null,
+    "show_correct_answers_at": null,
+    "hide_correct_answers_at": null,
+    "all_dates": [
+      {
+        "due_at": null,
+        "unlock_at": null,
+        "lock_at": null,
+        "base": true
+      }
+    ],
+    "can_unpublish": true,
+    "can_update": true,
+    "require_lockdown_browser": false,
+    "require_lockdown_browser_for_results": false,
+    "require_lockdown_browser_monitor": false,
+    "lockdown_browser_monitor_data": "",
+    "speed_grader_url": null,
+    "permissions": {
+      "manage": true,
+      "read": true,
+      "create": true,
+      "update": true,
+      "submit": true,
+      "preview": true,
+      "delete": true,
+      "read_statistics": true,
+      "grade": true,
+      "review_grades": true,
+      "view_answer_audits": true
+    },
+    "quiz_reports_url": "https://learning.flatironschool.com/api/v1/courses/3299/quizzes/19090/reports",
+    "quiz_statistics_url": "https://learning.flatironschool.com/api/v1/courses/3299/quizzes/19090/statistics",
+    "message_students_url": "https://learning.flatironschool.com/api/v1/courses/3299/quizzes/19090/submission_users/message",
+    "section_count": 1,
+    "important_dates": false,
+    "quiz_submission_versions_html_url": "https://learning.flatironschool.com/courses/3299/quizzes/19090/submission_versions",
+    "assignment_id": 129365,
+    "one_time_results": false,
+    "only_visible_to_overrides": false,
+    "assignment_group_id": 6376,
+    "show_correct_answers_last_attempt": true,
+    "version_number": 4,
+    "has_access_code": false,
+    "post_to_sis": false,
+    "migration_id": "gcaf8f536f5c674c2ffdb2a14a94d9d7f",
+    "question_types": [
+      "multiple_choice_question",
+      "multiple_answers_question"
+    ]
+  },
+  "questions": [
+    {
+      "quiz_id": 19090,
+      "id": 120554,
+      "quiz_group_id": null,
+      "assessment_question_id": 135533,
+      "position": null,
+      "question_name": "OO Concepts",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p><span>An object is a bundle of code that contains both characteristics and behaviors.</span></p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s</strong>: <a title=\"Self Basics\" href=\"https://learning.flatironschool.com/courses/3299/pages/self-basics\">Self Basics</a></p>",
+      "answers": [
+        {
+          "id": 5702,
+          "text": "True",
+          "html": "",
+          "comments": "",
+          "comments_html": "Correct! Objects may have instance methods and instance variables.",
+          "weight": 100.0
+        },
+        {
+          "id": 9382,
+          "text": "False",
+          "html": "",
+          "comments": "",
+          "comments_html": "Be sure to study the source/s for this question. You'll get it next time.",
+          "weight": 0.0
+        },
+        {
+          "id": 3176,
+          "text": "I don't know",
+          "html": "",
+          "comments": "",
+          "comments_html": "Be sure to study the source/s for this question. You'll get it next time.",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 19090,
+      "id": 120555,
+      "quiz_group_id": null,
+      "assessment_question_id": 135534,
+      "position": null,
+      "question_name": "OO Concepts",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>Every object is aware of itself and we can define methods in which we tell objects to operate on themselves.</p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s</strong>: <a title=\"Self Basics\" href=\"https://learning.flatironschool.com/courses/3299/pages/self-basics\">Self Basics</a></p>",
+      "answers": [
+        {
+          "id": 4961,
+          "text": "True",
+          "html": "",
+          "comments": "",
+          "comments_html": "Yes! Objects are self aware. This means that you, as a developer, can access properties and call methods on objects which then operate on those specific instances.",
+          "weight": 100.0
+        },
+        {
+          "id": 2793,
+          "text": "False",
+          "html": "",
+          "comments": "",
+          "comments_html": "If an object isn't self aware, how can we work with and manipulate them?",
+          "weight": 0.0
+        },
+        {
+          "id": 1087,
+          "text": "I don't know",
+          "html": "",
+          "comments": "",
+          "comments_html": "Be sure to study the source/s for this question. You'll get it next time.",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 19090,
+      "id": 120556,
+      "quiz_group_id": null,
+      "assessment_question_id": 135535,
+      "position": null,
+      "question_name": "Self",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>Consider the following code:</p>\n<pre><span class=\"pl-k\">class</span> <span class=\"pl-v\">Dog</span>\n  <span class=\"pl-en\">attr_accessor</span> <span class=\"pl-pds\">:name</span>\n  \n  <span class=\"pl-k\">def</span> <span class=\"pl-en\">good</span>\n    <span class=\"pl-smi\">self</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">name</span> + <span class=\"pl-s\">\" is a good dog\"</span>\n  <span class=\"pl-k\">end</span>\n<span class=\"pl-k\">end</span>\n\n<span class=\"pl-s1\">harpo</span> <span class=\"pl-c1\">=</span> <span class=\"pl-v\">Dog</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">new</span>\n<span class=\"pl-s1\">harpo</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">name</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s\">\"Harpo\"</span>\n<span class=\"pl-s1\">harpo</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">good</span></pre>\n<p><span>In the </span><code>good</code><span>&nbsp;method, the&nbsp;</span><code>self</code><span>&nbsp;keyword refers to the:</span></p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s</strong>: <a title=\"Self Basics\" href=\"https://learning.flatironschool.com/courses/3299/pages/self-basics\">Self Basics</a></p>",
+      "answers": [
+        {
+          "id": 9787,
+          "text": "specific instance, or object, that the method is being called on",
+          "html": "",
+          "comments": "",
+          "comments_html": "Awesome! <code>self</code> refers to the specific instance which has its own characteristics.",
+          "weight": 100.0
+        },
+        {
+          "id": 5581,
+          "text": "",
+          "html": "<code>class Dog</code>",
+          "comments": "",
+          "comments_html": "If <code>self</code> referred to <code>class Dog</code> that would mean that <code>self.name</code> inside <code>good</code> would be the same as calling <code>Dog.name</code>. Something about that doesn't seem right. What has a <code>name</code>: a Dog or an instance?",
+          "weight": 0.0
+        },
+        {
+          "id": 9040,
+          "text": "",
+          "html": "every instance, or object, of the <code>Dog</code> class",
+          "comments": "",
+          "comments_html": "Objects are self aware, but they aren't automatically aware of all of the other objects insantiated from a class. Does <code>self</code> refer to one object or many objects?",
+          "weight": 0.0
+        },
+        {
+          "id": 658,
+          "text": "I don't know.",
+          "html": "",
+          "comments": "",
+          "comments_html": "Be sure to study the source/s for this question. You'll get it next time.",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 19090,
+      "id": 120557,
+      "quiz_group_id": null,
+      "assessment_question_id": 135536,
+      "position": null,
+      "question_name": "OO Concepts",
+      "question_type": "multiple_answers_question",
+      "question_text": "<p><span>Monkey-patching is the practice of: (Select all that apply)</span></p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s</strong>: <a title=\"Counting Sentences Lab\" href=\"https://learning.flatironschool.com/courses/3299/assignments/74041\">Counting Sentences Lab</a><a title=\"Count Sentences Lab\" href=\"$CANVAS_OBJECT_REFERENCE$/assignments/gf7c2edae05685f723e8cb722271ad22b\" target=\"_blank\"></a></p>",
+      "answers": [
+        {
+          "id": "5600",
+          "text": "adding methods to Ruby's core classes.",
+          "comments": "",
+          "comments_html": "Yes! With monkey patching, we can add brand new methods to the String or Array classes, for example.",
+          "weight": 100.0
+        },
+        {
+          "id": "4794",
+          "text": "altering methods in Ruby's core classes.",
+          "comments": "",
+          "comments_html": "Exactly! We can entirely overwrite an existing method or add to its functionality. We don't recommend doing this though - it could cause a lot of confusion and bugs.",
+          "weight": 100.0
+        },
+        {
+          "id": "5904",
+          "text": "writing Ruby classes from scratch",
+          "comments": "",
+          "comments_html": "This is not a part of monkey patching because we wouldn't be patching anything - We'd just be declaring an entirely new class.",
+          "weight": 0.0
+        },
+        {
+          "id": "1533",
+          "text": "I don't know",
+          "comments": "",
+          "comments_html": "Be sure to study the source/s for this question. You'll get it next time.",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 19090,
+      "id": 120558,
+      "quiz_group_id": null,
+      "assessment_question_id": 135537,
+      "position": null,
+      "question_name": "OO Syntax",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>Consider the following code:</p>\n<pre><span class=\"pl-k\">class</span> <span class=\"pl-v\">Car</span>\n\n  <span class=\"pl-en\">attr_accessor</span> <span class=\"pl-pds\">:name</span><span class=\"pl-kos\">,</span> <span class=\"pl-pds\">:owner</span>\n\n  <span class=\"pl-k\">def</span> <span class=\"pl-en\">initialize</span><span class=\"pl-kos\">(</span><span class=\"pl-s1\">name</span><span class=\"pl-kos\">)</span>\n    <span class=\"pl-c1\">@<span class=\"pl-s1\">name</span></span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">name</span>\n  <span class=\"pl-k\">end</span>\n\n  <span class=\"pl-k\">def</span> <span class=\"pl-en\">honk</span>\n    <span class=\"pl-s\">\"Beep!\"</span>\n  <span class=\"pl-k\">end</span>\n\n  <span class=\"pl-k\">def</span> <span class=\"pl-en\">get_title</span><span class=\"pl-kos\">(</span><span class=\"pl-s1\">owner_name</span><span class=\"pl-kos\">)</span>\n    <span class=\"pl-smi\">self</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">owner</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">owner_name</span>\n  <span class=\"pl-k\">end</span>\n\n<span class=\"pl-k\">end</span>\n\n<span class=\"pl-s1\">lancelot</span> <span class=\"pl-c1\">=</span> <span class=\"pl-v\">Car</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">new</span><span class=\"pl-kos\">(</span><span class=\"pl-s\">\"2003 Mitsubishi Lancer\"</span><span class=\"pl-kos\">)</span></pre>\n<p><span>What will </span><code>lancelot</code><span>&nbsp;return?</span></p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s</strong><span>:&nbsp;</span><a title=\"Self Basics\" href=\"https://learning.flatironschool.com/courses/3299/pages/self-basics\">Self Basics</a></p>",
+      "answers": [
+        {
+          "id": 3806,
+          "text": "",
+          "html": "<p>An instance of <code>Car</code> with its <code><span class=\"pl-s1\">@name</span></code>&nbsp;defined</p>",
+          "comments": "",
+          "comments_html": "<p>Perfect! <code>Car.new</code> was called with the name of the car, which resulted in an instance of <code>Car</code> being returned and the <code>@name</code> instance variable being set.</p>",
+          "weight": 100.0
+        },
+        {
+          "id": 5886,
+          "text": "",
+          "html": "<code>nil</code>",
+          "comments": "",
+          "comments_html": "When <code>new</code> is called on <code>Car</code>, it triggers the <code>initialize</code> method, which expects an argument. What does calling <code>new</code> on a class return when the syntax is correct?",
+          "weight": 0.0
+        },
+        {
+          "id": 1685,
+          "text": "",
+          "html": "<pre>2003 Mitsubishi Lancer</pre>",
+          "comments": "",
+          "comments_html": "<p>That is the value stored in the instance variable <code>@<span class=\"pl-s1\">name</span></code>. What does calling <code>new</code> on a class return?</p>",
+          "weight": 0.0
+        },
+        {
+          "id": 5376,
+          "text": "",
+          "html": "<p><span>An instance of&nbsp;</span><code>Car</code><span>&nbsp;with&nbsp;</span><code>@name</code><span>&nbsp;and&nbsp;</span><code>@owner</code><span>&nbsp;defined</span></p>",
+          "comments": "",
+          "comments_html": "Take a look at <code>initialize</code>. Which properties does it set?",
+          "weight": 0.0
+        },
+        {
+          "id": 1360,
+          "text": "I don't know.",
+          "html": "",
+          "comments": "",
+          "comments_html": "Be sure to study the source/s for this question. You'll get it next time.",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 19090,
+      "id": 120559,
+      "quiz_group_id": null,
+      "assessment_question_id": 135538,
+      "position": null,
+      "question_name": "OO Syntax",
+      "question_type": "short_answer_question",
+      "question_text": "<p>Consider the following code:</p>\n<pre><span class=\"pl-k\">class</span> <span class=\"pl-v\">Car</span>\n\n  <span class=\"pl-en\">attr_accessor</span> <span class=\"pl-pds\">:name</span><span class=\"pl-kos\">,</span> <span class=\"pl-pds\">:owner</span>\n\n  <span class=\"pl-k\">def</span> <span class=\"pl-en\">initialize</span><span class=\"pl-kos\">(</span><span class=\"pl-s1\">name</span><span class=\"pl-kos\">)</span>\n    <span class=\"pl-c1\">@<span class=\"pl-s1\">name</span></span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">name</span>\n  <span class=\"pl-k\">end</span>\n\n  <span class=\"pl-k\">def</span> <span class=\"pl-en\">honk</span>\n    <span class=\"pl-s\">\"Beep!\"</span>\n  <span class=\"pl-k\">end</span>\n\n  <span class=\"pl-k\">def</span> <span class=\"pl-en\">get_title</span><span class=\"pl-kos\">(</span><span class=\"pl-s1\">owner_name</span><span class=\"pl-kos\">)</span>\n    <span class=\"pl-smi\">self</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">owner</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">owner_name</span>\n  <span class=\"pl-k\">end</span>\n\n<span class=\"pl-k\">end</span>\n\n<span class=\"pl-s1\">lancelot</span> <span class=\"pl-c1\">=</span> <span class=\"pl-v\">Car</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">new</span><span class=\"pl-kos\">(</span><span class=\"pl-s\">\"2003 Mitsubishi Lancer\"</span><span class=\"pl-kos\">)</span></pre>\n<p><span>What will </span><code>lancelot.get_title(\"Robert\")</code><span>&nbsp;return?</span></p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+      "neutral_comments_html": "<p><strong>Source/s</strong><span>:&nbsp;</span><a title=\"Self Basics\" href=\"https://learning.flatironschool.com/courses/3299/pages/self-basics\">Self Basics</a></p>",
+      "answers": [
+        {
+          "id": "5248",
+          "text": "Robert",
+          "comments": "",
+          "comments_html": "<p>Exactly! It will also set the instance variable <code>owner</code> to \"Robert\".</p>",
+          "weight": 100
+        },
+        {
+          "id": "9640",
+          "text": "\"Robert\"",
+          "comments": "",
+          "comments_html": "<p>Exactly! It will also set the instance variable <code>owner</code> to \"Robert\".</p>",
+          "weight": 100
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 19090,
+      "id": 120560,
+      "quiz_group_id": null,
+      "assessment_question_id": 135539,
+      "position": null,
+      "question_name": "OO Syntax",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p><span>Consider the following code:<br></span></p>\n<pre><span class=\"pl-k\">class</span> <span class=\"pl-v\">Car</span>\n\n  <span class=\"pl-en\">attr_accessor</span> <span class=\"pl-pds\">:name</span><span class=\"pl-kos\">,</span> <span class=\"pl-pds\">:owner</span>\n\n  <span class=\"pl-k\">def</span> <span class=\"pl-en\">initialize</span><span class=\"pl-kos\">(</span><span class=\"pl-s1\">name</span><span class=\"pl-kos\">)</span>\n    <span class=\"pl-c1\">@<span class=\"pl-s1\">name</span></span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">name</span>\n  <span class=\"pl-k\">end</span>\n\n  <span class=\"pl-k\">def</span> <span class=\"pl-en\">honk</span>\n    <span class=\"pl-s\">\"Beep!\"</span>\n  <span class=\"pl-k\">end</span>\n\n  <span class=\"pl-k\">def</span> <span class=\"pl-en\">get_title</span><span class=\"pl-kos\">(</span><span class=\"pl-s1\">owner_name</span><span class=\"pl-kos\">)</span>\n    <span class=\"pl-smi\">self</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">owner</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">owner_name</span>\n  <span class=\"pl-k\">end</span>\n\n<span class=\"pl-k\">end</span>\n\n<span class=\"pl-s1\">lancelot</span> <span class=\"pl-c1\">=</span> <span class=\"pl-v\">Car</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">new</span><span class=\"pl-kos\">(</span><span class=\"pl-s\">\"2003 Mitsubishi Lancer\"</span><span class=\"pl-kos\">)</span></pre>\n<p><span>After </span><code>lancelot.get_title(\"Robert\")</code><span> is called, what will&nbsp;</span><code>lancelot</code><span> return? (Select the <strong>best</strong> answer)</span></p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s</strong><span>:&nbsp;</span><a title=\"Self Basics\" href=\"https://learning.flatironschool.com/courses/3299/pages/self-basics\">Self Basics</a></p>",
+      "answers": [
+        {
+          "id": 7747,
+          "text": "",
+          "html": "<p><span>An instance of&nbsp;</span><code>Car</code><span> with </span><code>@name</code><span> and </span><code>@owner</code><span>&nbsp;defined</span></p>",
+          "comments": "",
+          "comments_html": "<p>Correct! <code>@name</code> was defined when the instance was created and <code>@owner</code> was defined when <code>get_title</code> was called, and <code>lancelot</code> is storing the object itself.</p>",
+          "weight": 100.0
+        },
+        {
+          "id": 5465,
+          "text": "",
+          "html": "<pre>Robert</pre>",
+          "comments": "",
+          "comments_html": "\"Robert\" is the name of the owner. What is stored in <code>lancelot</code>?",
+          "weight": 0.0
+        },
+        {
+          "id": 8951,
+          "text": "",
+          "html": "<pre><span>2003 Mitsubishi Lancer</span></pre>",
+          "comments": "",
+          "comments_html": "<p>This is the value of <code>@name</code> and it's a String. What type of data is stored in <code>lancelot</code>? What properties does it have?</p>",
+          "weight": 0.0
+        },
+        {
+          "id": 5498,
+          "text": "",
+          "html": "<p><span>An instance of&nbsp;</span><code>Car</code><span>&nbsp;with&nbsp;</span><code>@name</code><span>&nbsp;defined</span></p>",
+          "comments": "",
+          "comments_html": "<p>Partly correct. An instance with <code>@name</code> defined will be returned, but we must remember that <code>get_title</code> was also called. What happened when that method was called?</p>",
+          "weight": 0.0
+        },
+        {
+          "id": 4046,
+          "text": "I don't know",
+          "html": "",
+          "comments": "",
+          "comments_html": "Be sure to study the source/s for this question. You'll get it next time.",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 19090,
+      "id": 120561,
+      "quiz_group_id": null,
+      "assessment_question_id": 135540,
+      "position": null,
+      "question_name": "OO Concepts",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p><span>You can call any instance methods declared in a class on </span><code>self</code><span>.</span></p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s</strong><span>:&nbsp;</span><a title=\"Self Basics\" href=\"https://learning.flatironschool.com/courses/3299/pages/self-basics\">Self Basics</a></p>",
+      "answers": [
+        {
+          "id": 5729,
+          "text": "True",
+          "html": "",
+          "comments": "",
+          "comments_html": "Yes! Any instance methods declared inside a class can be called on <code>self</code>.",
+          "weight": 100.0
+        },
+        {
+          "id": 7116,
+          "text": "False",
+          "html": "",
+          "comments": "",
+          "comments_html": "Keeping in mind that <code>self</code> refers to the specific instance/object of a class, which instance methods wouldn't you be able to call on <code>self</code>? You might want to review the Source/s for this question.",
+          "weight": 0.0
+        },
+        {
+          "id": 8474,
+          "text": "I don't know.",
+          "html": "",
+          "comments": "",
+          "comments_html": "Be sure to study the source/s for this question. You'll get it next time.",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    }
+  ]
+}
