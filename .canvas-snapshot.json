@@ -4,7 +4,7 @@
     "title": "Self Quiz",
     "html_url": "https://learning.flatironschool.com/courses/3299/quizzes/19090",
     "mobile_url": "https://learning.flatironschool.com/courses/3299/quizzes/19090?force_user=1&persist_headless=1",
-    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"phase-3-quiz-self\"></div>\n<header class=\"fis-header\"><a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/phase-3-quiz-self/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a></header>\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide. Note any answers that were marked incorrect, so you can study the relevant material and try this quiz again.</p>\n<p>If you don't know the answer to a question, please do not guess. Instead, select \"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
+    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"phase-3-quiz-self\"></div>\n<header class=\"fis-header\">\n  <a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/phase-3-quiz-self/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a>\n</header>\n\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide.\nNote any answers that were marked incorrect, so you can study the relevant\nmaterial and try this quiz again.</p>\n\n<p>If you don't know the answer to a question, please do not guess. Instead, select\n\"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
     "quiz_type": "assignment",
     "time_limit": null,
     "timer_autosubmit_disabled": false,
@@ -71,7 +71,7 @@
     "only_visible_to_overrides": false,
     "assignment_group_id": 9648,
     "show_correct_answers_last_attempt": true,
-    "version_number": 5,
+    "version_number": 6,
     "has_access_code": false,
     "post_to_sis": false,
     "migration_id": "gcaf8f536f5c674c2ffdb2a14a94d9d7f",
@@ -99,7 +99,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/pages/self-basics\">Self Basics</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 5203,
+          "id": 5393,
           "text": "",
           "html": "<p>True</p>",
           "comments": "",
@@ -107,7 +107,7 @@
           "weight": 100.0
         },
         {
-          "id": 1240,
+          "id": 7811,
           "text": "",
           "html": "<p>False</p>",
           "comments": "",
@@ -115,7 +115,7 @@
           "weight": 0.0
         },
         {
-          "id": 2923,
+          "id": 8309,
           "text": "",
           "html": "<p>I don't know</p>",
           "comments": "",
@@ -148,7 +148,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/pages/self-basics\">Self Basics</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 1889,
+          "id": 5681,
           "text": "",
           "html": "<p>True</p>",
           "comments": "",
@@ -156,7 +156,7 @@
           "weight": 100.0
         },
         {
-          "id": 9834,
+          "id": 4914,
           "text": "",
           "html": "<p>False</p>",
           "comments": "",
@@ -164,7 +164,7 @@
           "weight": 0.0
         },
         {
-          "id": 6611,
+          "id": 9770,
           "text": "",
           "html": "<p>I don't know</p>",
           "comments": "",
@@ -187,7 +187,7 @@
       "position": null,
       "question_name": "Self",
       "question_type": "multiple_choice_question",
-      "question_text": "<p>Consider the following code:</p>\n<div class=\"highlight\">\n<pre class=\"highlight ruby\"><code><span class=\"k\">class</span> <span class=\"nc\">Dog</span>\n  <span class=\"nb\">attr_accessor</span> <span class=\"ss\">:name</span>\n\n  <span class=\"k\">def</span> <span class=\"nf\">good</span>\n    <span class=\"nb\">self</span><span class=\"p\">.</span><span class=\"nf\">name</span> <span class=\"o\">+</span> <span class=\"s2\">\" is a good dog\"</span>\n  <span class=\"k\">end</span>\n<span class=\"k\">end</span>\n\n<span class=\"n\">harpo</span> <span class=\"o\">=</span> <span class=\"no\">Dog</span><span class=\"p\">.</span><span class=\"nf\">new</span>\n<span class=\"n\">harpo</span><span class=\"p\">.</span><span class=\"nf\">name</span> <span class=\"o\">=</span> <span class=\"s2\">\"Harpo\"</span>\n<span class=\"n\">harpo</span><span class=\"p\">.</span><span class=\"nf\">good</span>\n</code></pre>\n</div>\n<p>In the <code>good</code> method, the <code>self</code> keyword refers to:</p>",
+      "question_text": "<p>Consider the following code:</p>\n<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"k\">class</span> <span class=\"nc\">Dog</span>\n  <span class=\"nb\">attr_accessor</span> <span class=\"ss\">:name</span>\n\n  <span class=\"k\">def</span> <span class=\"nf\">good</span>\n    <span class=\"nb\">self</span><span class=\"p\">.</span><span class=\"nf\">name</span> <span class=\"o\">+</span> <span class=\"s2\">\" is a good dog\"</span>\n  <span class=\"k\">end</span>\n<span class=\"k\">end</span>\n\n<span class=\"n\">harpo</span> <span class=\"o\">=</span> <span class=\"no\">Dog</span><span class=\"p\">.</span><span class=\"nf\">new</span>\n<span class=\"n\">harpo</span><span class=\"p\">.</span><span class=\"nf\">name</span> <span class=\"o\">=</span> <span class=\"s2\">\"Harpo\"</span>\n<span class=\"n\">harpo</span><span class=\"p\">.</span><span class=\"nf\">good</span>\n</code></pre></div>\n<p>In the <code>good</code> method, the <code>self</code> keyword refers to:</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
@@ -197,7 +197,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/pages/self-basics\">Self Basics</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 5842,
+          "id": 4445,
           "text": "",
           "html": "<p>The specific instance, or object, that the method is being called on.</p>",
           "comments": "",
@@ -205,7 +205,7 @@
           "weight": 100.0
         },
         {
-          "id": 1228,
+          "id": 9328,
           "text": "",
           "html": "<p>The <code>Dog</code> class.</p>",
           "comments": "",
@@ -213,7 +213,7 @@
           "weight": 0.0
         },
         {
-          "id": 1740,
+          "id": 7921,
           "text": "",
           "html": "<p>Every instance, or object, of the <code>Dog</code> class.</p>",
           "comments": "",
@@ -221,7 +221,7 @@
           "weight": 0.0
         },
         {
-          "id": 3158,
+          "id": 8990,
           "text": "",
           "html": "<p>I don't know.</p>",
           "comments": "",
@@ -254,7 +254,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/assignments/74041\">Counting Sentences Lab</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 4963,
+          "id": 2260,
           "text": "",
           "comments": "",
           "comments_html": "<p>Yes! With monkey patching, we can add brand new methods to the String or Array\nclasses, for example.</p>",
@@ -262,7 +262,7 @@
           "html": "<p>Adding methods to Ruby's core classes.</p>"
         },
         {
-          "id": 1185,
+          "id": 3249,
           "text": "",
           "comments": "",
           "comments_html": "<p>Exactly! We can entirely overwrite an existing method or add to its\nfunctionality. We don't recommend doing this though - it could cause a lot of\nconfusion and bugs.</p>",
@@ -270,7 +270,7 @@
           "html": "<p>Altering existing methods in Ruby's core classes.</p>"
         },
         {
-          "id": 4247,
+          "id": 3520,
           "text": "",
           "comments": "",
           "comments_html": "<p>This is not a part of monkey patching because we wouldn't be patching\nanything. We'd just be declaring an entirely new class.</p>",
@@ -278,7 +278,7 @@
           "html": "<p>Writing Ruby classes from scratch</p>"
         },
         {
-          "id": 1130,
+          "id": 4425,
           "text": "",
           "comments": "",
           "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
@@ -311,7 +311,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/pages/self-basics\">Self Basics</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 4739,
+          "id": 4425,
           "text": "",
           "html": "<p>An instance of <code>Car</code> with its <code>@name</code> set to <code>\"2003 Mitsubishi Lancer\"</code>.</p>",
           "comments": "",
@@ -319,7 +319,7 @@
           "weight": 100.0
         },
         {
-          "id": 4774,
+          "id": 8803,
           "text": "",
           "html": "<p><code>nil</code></p>",
           "comments": "",
@@ -327,7 +327,7 @@
           "weight": 0.0
         },
         {
-          "id": 5859,
+          "id": 4367,
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"s2\">\"2003 Mitsubishi Lancer\"</span>\n</code></pre></div>",
           "comments": "",
@@ -335,7 +335,7 @@
           "weight": 0.0
         },
         {
-          "id": 4885,
+          "id": 3278,
           "text": "",
           "html": "<p>An instance of <code>Car</code> with <code>@name</code> and <code>@owner</code> defined.</p>",
           "comments": "",
@@ -343,7 +343,7 @@
           "weight": 0.0
         },
         {
-          "id": 3018,
+          "id": 5322,
           "text": "",
           "html": "<p>I don't know.</p>",
           "comments": "",
@@ -376,14 +376,14 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/pages/self-basics\">Self Basics</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 8121,
+          "id": 7763,
           "text": "Robert",
           "comments": "",
           "comments_html": "<p>Exactly! It will also set the instance variable <code>owner</code> to \"Robert\".</p>",
           "weight": 100
         },
         {
-          "id": 3385,
+          "id": 5421,
           "text": "\"Robert\"",
           "comments": "",
           "comments_html": "<p>Exactly! It will also set the instance variable <code>owner</code> to \"Robert\".</p>",
@@ -415,7 +415,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/pages/self-basics\">Self Basics</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 3758,
+          "id": 4182,
           "text": "",
           "html": "<p>An instance of <code>Car</code> with <code>@name</code> and <code>@owner</code> defined</p>",
           "comments": "",
@@ -423,7 +423,7 @@
           "weight": 100.0
         },
         {
-          "id": 6132,
+          "id": 4669,
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"s2\">\"Robert\"</span>\n</code></pre></div>",
           "comments": "",
@@ -431,7 +431,7 @@
           "weight": 0.0
         },
         {
-          "id": 1952,
+          "id": 3155,
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"s2\">\"2003 Mitsubishi Lancer\"</span>\n</code></pre></div>",
           "comments": "",
@@ -439,7 +439,7 @@
           "weight": 0.0
         },
         {
-          "id": 7043,
+          "id": 9586,
           "text": "",
           "html": "<p>An instance of <code>Car</code> with <code>@name</code> defined</p>",
           "comments": "",
@@ -447,7 +447,7 @@
           "weight": 0.0
         },
         {
-          "id": 4690,
+          "id": 4248,
           "text": "",
           "html": "<p>I don't know</p>",
           "comments": "",
@@ -470,7 +470,7 @@
       "position": null,
       "question_name": "OO Concepts",
       "question_type": "multiple_choice_question",
-      "question_text": "<p>Consider the following code:</p>\n<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"k\">class</span> <span class=\"nc\">Car</span>\n\n  <span class=\"nb\">attr_accessor</span> <span class=\"ss\">:name</span><span class=\"p\">,</span> <span class=\"ss\">:owner</span>\n\n  <span class=\"k\">def</span> <span class=\"nf\">initialize</span><span class=\"p\">(</span><span class=\"nb\">name</span><span class=\"p\">)</span>\n    <span class=\"vi\">@name</span> <span class=\"o\">=</span> <span class=\"nb\">name</span>\n  <span class=\"k\">end</span>\n\n  <span class=\"k\">def</span> <span class=\"nf\">honk</span>\n    <span class=\"s2\">\"Beep!\"</span>\n  <span class=\"k\">end</span>\n\n  <span class=\"k\">def</span> <span class=\"nf\">take_ownership</span><span class=\"p\">(</span><span class=\"n\">owner_name</span><span class=\"p\">)</span>\n    <span class=\"nb\">self</span><span class=\"p\">.</span><span class=\"nf\">owner</span> <span class=\"o\">=</span> <span class=\"n\">owner_name</span>\n  <span class=\"k\">end</span>\n\n  <span class=\"k\">def</span> <span class=\"nf\">showing_self</span>\n    <span class=\"nb\">puts</span> <span class=\"nb\">self</span>\n  <span class=\"k\">end</span>\n<span class=\"k\">end</span>\n</code></pre></div>\n<p>In the <code>showing_self</code> method, you can call any instance methods declared in the\nclass class on <code>self</code>.</p>",
+      "question_text": "<p>Consider the following code:</p>\n<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"k\">class</span> <span class=\"nc\">Car</span>\n\n  <span class=\"nb\">attr_accessor</span> <span class=\"ss\">:name</span><span class=\"p\">,</span> <span class=\"ss\">:owner</span>\n\n  <span class=\"k\">def</span> <span class=\"nf\">initialize</span><span class=\"p\">(</span><span class=\"nb\">name</span><span class=\"p\">)</span>\n    <span class=\"vi\">@name</span> <span class=\"o\">=</span> <span class=\"nb\">name</span>\n  <span class=\"k\">end</span>\n\n  <span class=\"k\">def</span> <span class=\"nf\">honk</span>\n    <span class=\"s2\">\"Beep!\"</span>\n  <span class=\"k\">end</span>\n\n  <span class=\"k\">def</span> <span class=\"nf\">take_ownership</span><span class=\"p\">(</span><span class=\"n\">owner_name</span><span class=\"p\">)</span>\n    <span class=\"nb\">self</span><span class=\"p\">.</span><span class=\"nf\">owner</span> <span class=\"o\">=</span> <span class=\"n\">owner_name</span>\n  <span class=\"k\">end</span>\n\n  <span class=\"k\">def</span> <span class=\"nf\">showing_self</span>\n    <span class=\"nb\">puts</span> <span class=\"nb\">self</span>\n  <span class=\"k\">end</span>\n<span class=\"k\">end</span>\n</code></pre></div>\n<p>In the <code>showing_self</code> method, if we decided we also want to <code>puts</code> \"Beep!\", what\nis the best way to do that?</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
@@ -480,23 +480,31 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/pages/self-basics\">Self Basics</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 3702,
+          "id": 3296,
           "text": "",
-          "html": "<p>True</p>",
+          "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"k\">def</span> <span class=\"nf\">showing_self</span>\n  <span class=\"nb\">puts</span> <span class=\"nb\">self</span>\n  <span class=\"nb\">puts</span> <span class=\"nb\">self</span><span class=\"p\">.</span><span class=\"nf\">honk</span>\n</code></pre></div>",
           "comments": "",
-          "comments_html": "<p>Yes! Any instance methods declared inside a class can be called on <code>self</code>.</p>",
+          "comments_html": "<p>Correct! Any instance methods declared inside a class can be invoked from\ninside other methods by calling them on <code>self</code>.</p>",
           "weight": 100.0
         },
         {
-          "id": 1442,
+          "id": 7076,
           "text": "",
-          "html": "<p>False</p>",
+          "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"k\">def</span> <span class=\"nf\">showing_self</span>\n  <span class=\"nb\">puts</span> <span class=\"nb\">self</span>\n  <span class=\"nb\">self</span><span class=\"p\">.</span><span class=\"nf\">honk</span>\n</code></pre></div>",
           "comments": "",
-          "comments_html": "<p>Keeping in mind that <code>self</code> refers to the specific instance/object of a class,\nwhich instance methods wouldn't you be able to call on <code>self</code>? You might want to\nreview the Source/s for this question.</p>",
+          "comments_html": "<p>Close! But notice that the <code>honk</code> method doesn't invoke <code>puts</code>.</p>",
           "weight": 0.0
         },
         {
-          "id": 3018,
+          "id": 2743,
+          "text": "",
+          "html": "<p>It is not possible to call an instance method from inside another instance\nmethod.</p>",
+          "comments": "",
+          "comments_html": "<p>Incorrect - any instance methods declared inside a class can be invoked from\ninside other methods by calling them on <code>self</code>.</p>",
+          "weight": 0.0
+        },
+        {
+          "id": 6283,
           "text": "",
           "html": "<p>I don't know.</p>",
           "comments": "",
